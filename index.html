@@ -22,6 +22,11 @@
             align-items: center;
             justify-content: center;
         }
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
         h1 {
             font-size: 7.2rem;
         }
@@ -41,11 +46,14 @@
             font-size: 2rem;
         }
         h1, h2, h3, h4, h5, h6 {
-            margin-bottom: 3.2rem;
+            margin: 0 0 2.4rem;
+        }
+        p {
+            font-size: 1.4rem;
+            margin: 0;
+            padding: 0;
         }
         .root {
-            background-color: rgb(255, 255, 255);
-            box-shadow: 0 0.2rem 1.6rem rgba(0, 0, 0, 0.2);
             border-radius: 1.6rem;
             margin: 3.2rem;
             max-width: 64rem;
@@ -55,7 +63,8 @@
 </head>
 <body>
     <div class="root">
-        <h1>PersiaTV</h1>
+        <h4>PersiaTV</h4>
+        <p>An Online Iranian TV Network for all Iranians and Persian (Parsi) Speakers</p>
     </div>
 </body>
 </html>
