@@ -17,6 +17,10 @@
         body {
             font-family: 'Open Sans', sans-serif;
             font-size: 1.6rem;
+            background-color: rgb(223, 223, 231);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         h1 {
             font-size: 7.2rem;
@@ -39,10 +43,18 @@
         h1, h2, h3, h4, h5, h6 {
             margin-bottom: 3.2rem;
         }
+        .root {
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0.2rem 1.6rem rgba(0, 0, 0, 0.2);
+            border-radius: 1.6rem;
+            margin: 3.2rem;
+            max-width: 64rem;
+            max-height: 48rem;
+        }
     </style>
 </head>
 <body>
-    <div id="root">
+    <div class="root">
         <h1>PersiaTV</h1>
     </div>
 </body>
